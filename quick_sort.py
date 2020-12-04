@@ -3,12 +3,11 @@
     with randomized partition
 
     -Time Complexity-
-    Best Case: O(n)
-    Average Case: O(n^2)
-    Worst Case: O(n^2)
+    Average Time: O(n log(n))
+    due to the randomized partition there is no value
+    to best and worst cases
 
     Space Complexity: O(1)
-
 """
 import random
 
