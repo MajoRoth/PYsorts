@@ -20,6 +20,7 @@ def QuickInsertionSort(A, p=0, r=None):
         r = len(A)-1
     if p < r:
         if r-p < 20:
+            print('a')
             InsertionSort(A, p, r)
         else:
             q = RandomizedPartition(A, p, r)

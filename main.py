@@ -5,13 +5,13 @@ from quick_sort import QuickSort
 from merge_sort import MergeSort
 from heap_sort import HeapSort
 from quick_insertion_sort import QuickInsertionSort
+from linear_sorts import CountingSort
 
 
-size = 100000
+size = 20
 a = []
 for i in range(0, size):
-    a.append(random.randint(0, 1000))
+    a.append(random.randint(0, 10))
 
 print(a)
-QuickInsertionSort(a)
-print(a)
+print(CountingSort(a, 11))
